@@ -19,6 +19,7 @@ halfparskip % Removes the horizontal indet when starting a new paragraph.
 \usepackage{url}
 \usepackage[pdftex]{graphicx}  
 \usepackage{hyperref} % turn all your internal references into hyperlinks
+\renewcommand{\sectionautorefname}{Section} %rename subsection to Section for better referencing
 
 % ToDo List
 \usepackage{enumitem,amssymb}
@@ -98,13 +99,14 @@ halfparskip % Removes the horizontal indet when starting a new paragraph.
 \title{
 % TODO: Select the type of the thesis proposal you are writing.
 % Source: https://degree.studentnews.eu/
-{\normalsize --<BSc/MSc> Thesis Proposal--\\
+{\normalsize --<B. Sc. / M. Sc.> Thesis Proposal--\\
 % TODO: The title should be capitalized. If unsure use the following website: https://capitalizemytitle.com/
+[4ex]
 {\LARGE<Working Title of Your Thesis>}\\ 
-[6ex]
+[4ex]
 \small Freie Universität Berlin\\Institute of Computer Science}\\
 {\small Human-Centered Computing (HCC) Research Group}\\
-[6ex]
+[2ex]
 }
 
 \author{
@@ -112,10 +114,10 @@ halfparskip % Removes the horizontal indet when starting a new paragraph.
 {\normalsize<First name Last name>}\\
 % TODO: Add your matriculation number!
 {\normalsize Student Number: <Your matriculation number>}\\
-% TODO Please use the email adress provided by FU Berlin.
+% TODO Please use the email address provided by FU Berlin.
 {\normalsize <firstname.lastname@fu-berlin.de>}\\
 % TODO: Add the date. This is important, since there will be different versions of you proposal.
-{\normalsize Date of Submission: <Month, DD, YYYY>}\\
+{\normalsize Date of Proposal Submission: <Month, DD, YYYY>}\\
 % TODO: Please add the version, so we can keep track of the number of iterations.
 {\normalsize Version: <\#>}\\\\
 
@@ -123,12 +125,12 @@ halfparskip % Removes the horizontal indet when starting a new paragraph.
 \\
 {\normalsize Supervisor:\\
 % TODO: Add the name of your supervisor.
-\normalsize<First name Last name>\footnote{Dept. of Computer Science and Mathematics, Human-Centered Computing (HCC) Research Group}, Freie Universität Berlin, Germany}\\\\
+\normalsize<First name Last name>\footnote{Department of Mathematics and Computer Science, Human-Centered Computing Research Group}, Freie Universität Berlin, Germany}\\\\
 
-{\normalsize Reviewers:\\
-\normalsize Prof. Dr. Claudia Müller-Birn\footnote{Dept. of Computer Science and Mathematics, Human-Centered Computing (HCC) Research Group}, Freie Universität Berlin, Germany\\
+{\normalsize Examiner:\\
+\normalsize Prof. Dr. Claudia Müller-Birn\footnote{Department of Mathematics and Computer Science, Human-Centered Computing Research Group}, Freie Universität Berlin, Germany\\
 % TODO: Add the name of your second reviewer.
-\normalsize <Prof. Dr. Second Reviewer\footnote{Dept. of Computer Science and Mathematics, <Name of Research Group>}>, Freie Universität Berlin, Germany}\\\\
+\normalsize <Prof. Dr. Second Examiner\footnote{Department of Mathematics and Computer Science, <Name of Research Group>}>, Freie Universität Berlin, Germany}\\\\
 }
 
 \date{} % This omits the date on the title page.
